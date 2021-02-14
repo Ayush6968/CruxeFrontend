@@ -74,17 +74,6 @@
 
             <ul class="menu-list accordion">
               <li id="nav1" class="toggle accordion-toggle">
-                <a class="menu-link" href="./astronomy.html">astronomy</a>
-              </li>
-              <!-- menu-submenu accordon-content-->
-              <li id="nav2" class="toggle accordion-toggle">
-                <a class="menu-link" href="./technology.html">technology</a>
-              </li>
-              <!-- menu-submenu accordon-content-->
-              <li id="nav3" class="toggle accordion-toggle">
-                <a class="menu-link" href="./economics.html">economics</a>
-              </li>
-              <li id="nav1" class="toggle accordion-toggle">
                 <a class="menu-link" href="./history.html">history</a>
               </li>
               <!-- menu-submenu accordon-content-->
@@ -131,7 +120,7 @@
       const pagecontainer = document.getElementById("history-container");
 
       async function getdataentpage() {
-        let urlpage = "http://1d8e5856e842.ngrok.io/movies";
+        let urlpage = "https://www.apicruxe.xyz/history_all";
         let response = await fetch(urlpage);
         if (!response.ok) {
           console.log("error");
